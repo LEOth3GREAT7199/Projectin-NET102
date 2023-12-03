@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Center the container */
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    /* Style for the download button */
+    .download-button {
+      padding: 15px 30px;
+      background-color: #282828;
+      color: #fff;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Style for the surrounding images */
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      position: absolute;
+    }
+
+    body {
+    	background-repeat: no-repeat;
+    	background-size: 100%;
+    }
+
+    .image {
+      width: 500px;
+      height: 500px;
+      margin: 10px;
+      transform: rotate(0deg);
+  }
+
+  </style>
+</head>
+<body background="https://images.pexels.com/photos/1259327/pexels-photo-1259327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+
+  <div class="container">
+    <button class="download-button">Download</button>
+    <div class="image-container">
+      <img class="image" src="https://media3.giphy.com/media/UVGKIXwxoah4H67Giy/giphy.gif?cid=ecf05e47b0uk86czgf5ihoab9xg441ider84mbuseit7u40k&ep=v1_stickers_search&rid=giphy.gif&ct=s">
+    </div>
+  </div>
+</body>
+</html>
